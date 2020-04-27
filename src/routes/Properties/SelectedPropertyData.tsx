@@ -1,7 +1,9 @@
 import React from 'react';
 import { TR, TD, PremisesWrapper, TH} from './styled';
 
-const rentIncreaseArray = [1.05, 1.05, 1.03, 1.02, 1.02];
+//const rentIncreaseArray = [1.05, 1.05, 1.03, 1.02, 1.02];
+//Maybe you meant this
+const rentIncreaseArray = [1.05, 1.1025, 1.135575, 1.1582865, 1.18145223];
 
 const PremiseTypes = ({ premisesTypes }: any) => {
   return premisesTypes.map((premise: any) => {
